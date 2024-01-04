@@ -1,0 +1,14 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"strict": true,
+		"noEmit": false,
+		"declaration": true,
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+	},
+	"include": [
+		"src/**/*.ts", "src/package/web3/index.js",
+	]
+}
