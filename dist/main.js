@@ -1,11 +1,3 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -18,39 +10,27 @@
 })(self, () => {
 return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
-
-/***/ "./src/home.js":
-/*!*********************!*\
-  !*** ./src/home.js ***!
-  \*********************/
+/******/ 	var __webpack_modules__ = ([
+/* 0 */,
+/* 1 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   a: () => (/* binding */ a)\n/* harmony export */ });\nvar a = 1;\nconsole.log('改动6');\nconsole.log('改动6689898');\n\n//# sourceURL=webpack://index/./src/home.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   a: () => (/* binding */ a)
+/* harmony export */ });
+var a = 1;
+console.log('改动6');
+console.log('改动6689898');
 
 /***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   component: () => (/* binding */ component),\n/* harmony export */   sayHello: () => (/* binding */ sayHello)\n/* harmony export */ });\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _assets_images_1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/1.jpg */ \"./src/assets/images/1.jpg\");\n// import { join } from 'lodash'\n\n\nconsole.log(_home_js__WEBPACK_IMPORTED_MODULE_0__.a);\nconsole.log(_home_js__WEBPACK_IMPORTED_MODULE_0__.a);\nconsole.log('改动1');\nvar aaa = [1, 2, 3, 4];\naaa.mvp(function (v) {\n  console.log(v);\n});\nfunction sayHello(name) {\n  console.log(name);\n}\nfunction component() {\n  // lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的\n\n  return __webpack_require__.e(/*! import() */ \"vendors-node_modules_lodash_lodash_js\").then(__webpack_require__.t.bind(__webpack_require__, /*! lodash */ \"./node_modules/lodash/lodash.js\", 23)).then(function (_ref) {\n    var _ = _ref[\"default\"];\n    var element = document.createElement('div');\n    element.innerHTML = _.join(['Hello', 'webpack'], ' ');\n  })[\"catch\"](function (error) {\n    return 'An error occured while loading the component';\n  });\n}\nvar appDom = document.getElementById('app');\nvar img = new Image();\nimg.src = _assets_images_1_jpg__WEBPACK_IMPORTED_MODULE_1__;\nappDom.appendChild(img);\n\n// document.body.appendChild(component());\n// https://webpack.docschina.org/configuration/output/#outputlibrarytarget\n\nif (false) {}\n\n//# sourceURL=webpack://index/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/assets/images/1.jpg":
-/*!*********************************!*\
-  !*** ./src/assets/images/1.jpg ***!
-  \*********************************/
+/* 2 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"images/1.jpg\";\n\n//# sourceURL=webpack://index/./src/assets/images/1.jpg?");
+module.exports = __webpack_require__.p + "images/1.jpg";
 
 /***/ })
-
-/******/ 	});
+/******/ 	]);
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
@@ -266,7 +246,7 @@ eval("module.exports = __webpack_require__.p + \"images/1.jpg\";\n\n//# sourceUR
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"main": 0
+/******/ 			0: 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = (chunkId, promises) => {
@@ -349,13 +329,52 @@ eval("module.exports = __webpack_require__.p + \"images/1.jpg\";\n\n//# sourceUR
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
-/******/ 	__webpack_exports__ = __webpack_exports__["default"];
-/******/ 	
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   component: () => (/* binding */ component),
+/* harmony export */   sayHello: () => (/* binding */ sayHello)
+/* harmony export */ });
+/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _assets_images_1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+// import { join } from 'lodash'
+
+
+console.log(_home_js__WEBPACK_IMPORTED_MODULE_0__.a);
+console.log(_home_js__WEBPACK_IMPORTED_MODULE_0__.a);
+console.log('改动1');
+var aaa = [1, 2, 3, 4];
+aaa.mvp(function (v) {
+  console.log(v);
+});
+function sayHello(name) {
+  console.log(name);
+}
+function component() {
+  // lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的
+
+  return __webpack_require__.e(/* import() */ 1).then(__webpack_require__.t.bind(__webpack_require__, 3, 23)).then(function (_ref) {
+    var _ = _ref["default"];
+    var element = document.createElement('div');
+    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  })["catch"](function (error) {
+    return 'An error occured while loading the component';
+  });
+}
+var appDom = document.getElementById('app');
+var img = new Image();
+img.src = _assets_images_1_jpg__WEBPACK_IMPORTED_MODULE_1__;
+appDom.appendChild(img);
+
+// document.body.appendChild(component());
+// https://webpack.docschina.org/configuration/output/#outputlibrarytarget
+
+if (false) {}
+})();
+
+__webpack_exports__ = __webpack_exports__["default"];
 /******/ 	return __webpack_exports__;
 /******/ })()
 ;

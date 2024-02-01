@@ -9,6 +9,7 @@
     "build:web3": "cross-env NODE_ENV=dev PROJECT=package/web3 webpack  --mode development",
     "build:webvital": "cross-env NODE_ENV=dev PROJECT=package/webvitals webpack  --mode development",
     "build:lodash": "webpack --env project=package/lodash",
+    "build:audio": "cross-env NODE_ENV=dev PROJECT=package/audio webpack  --mode development",
     "dev": "webpack",
     "start": "webpack serve",
     "watch": "webpack --watch",

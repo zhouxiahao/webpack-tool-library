@@ -1,0 +1,7 @@
+*.pyc
+*.log
+.idea
+.vscode
+out.sync_mirror
+**/node_modules/*
+
